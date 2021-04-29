@@ -99,7 +99,7 @@ export default {
     width: 540,
   },
   'yandex-music-track': {
-    regex: /https?:\/\/music\.yandex\.ru\/album\/([0-9]*)\/track\/([0-9]*)/,
+    regex: /https?:\/\/music\.yandex\.ru\/album\/[0-9]*\/track\/([0-9]*)/,
     embedUrl: 'https://music\.yandex\.ru/iframe/#track/<%= remote_id %>/',
     html: '<iframe frameborder="0" style="border:none;width:540px;height:100px;" style="width:100%;" height="100"></iframe>',
     height: 100,
